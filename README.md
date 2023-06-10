@@ -68,7 +68,7 @@ Check [xatlasjs on npmjs](https://www.npmjs.com/package/xatlasjs) for more detai
 
 To unwrap a `THREE.BufferGeometry`: 
 ```js
-    await unwrapper.unwrap(geometry);
+    await unwrapper.unwrapGeometry(geometry);
 ```
 Here, generated UVs will be written to 'uv' attribute, and any original uvs will be written to 'uv2' attribute. This can be customised by passing in a custom attribute name.
 
